@@ -29,6 +29,7 @@ def get_filters():
     while True:
         month = input('enter a monthe from the first six or "all" for all\n>').lower()
         if month in('all', 'january', 'february', 'march', 'april', 'may', 'june'):
+            print('Great, looks like you choose ' + month )
             break
         else:
             print('\nPlease type the correct month name!')
